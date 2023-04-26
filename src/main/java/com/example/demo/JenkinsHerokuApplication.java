@@ -13,7 +13,7 @@ public class JenkinsHerokuApplication {
 		SpringApplication.run(JenkinsHerokuApplication.class, args);
 	}
 
-	@GetMapping
+	@GetMapping("/")
 	public String get(){
 		return "Helo Jenkins";
 	}
